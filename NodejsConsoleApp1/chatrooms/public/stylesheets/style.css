@@ -1,0 +1,25 @@
+﻿body {
+    padding:50px;
+    font:14px "Lucida Grande",Helvetica,Arial,sans-serif;
+}
+a{
+    color:#00b7ff;
+}
+#content{   /*程序界面的宽度是800px,水平居中*/
+    width:800px;
+    margin-left:auto;
+    margin-right:auto;
+}
+#room{
+    background-color:#ddd;
+    margin-bottom:1em;
+}
+#message{/*显示消息的区域690px,高300px*/
+    width:690px;
+    height:300px;
+    overflow:auto; /*让显示消息的区域在内容填满后可以向下滚动*/
+    background-color:#eee;
+    margin-bottom:1em;
+    margin-right:10px;
+}
+
